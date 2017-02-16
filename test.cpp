@@ -1,4 +1,6 @@
 #include "test.h"
 int test(){
-	return 1;
+	int a=1;
+	int b=a;
+	return b;
 }
